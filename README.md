@@ -12,8 +12,8 @@ Ahora se debe eliminar todo lo que haya en la escena.
 bpy.ops.object.select_all(action='SELECT')
 bpy.ops.object.delete()
 ```
-`bpy.ops.object.select_all(action='SELECT')` :  Selecciona todo lo de la escena.
-`bpy.ops.object.delete()` : Elimina todo lo seleccionado.
+- `bpy.ops.object.select_all(action='SELECT')` :  Selecciona todo lo de la escena.
+- `bpy.ops.object.delete()` : Elimina todo lo seleccionado.
 
 ## Creación del material y sus parámetros principales
 ``` python
